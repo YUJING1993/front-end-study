@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>多行文本框控件</title>
+</head>
+<body>
+<center>
+表单控件:<hr/>
+<form name="" method="post" action="form_rec.asp">
+多行文本框:<br/>
+<textarea name="txt" cols="45" rows="4" wrap="off"> 请修改文本内容（关闭自动换行）</textarea><br/>
+<textarea name="txt" cols="45" rows="4" wrap="physical"> 请修改文本内容（开启自动换行）</textarea><br/>
+<textarea name="txt2" cols="45" rows="2" readonly="true">无法修改的文本内容</textarea><br/>
+<input type="button" value="表单内的普通按钮"/><br/>
+<input type="submit" value="提交按钮"/><br/>
+<input type="reset" value="表单内的重置按钮"/><br/>
+单选框，带有label标签:<br/>
+    <input type="radio" name="radio" checked="checked">选项一  
+    <label><input type="radio" name="radio" checked="checked">选项二</label>
+    <label><input type="radio" name="radio" checked="checked">选项三</label>
+<br/>复选框:<br/>
+    <input type="checkbox" >选项一  
+    <label><input type="checkbox" name="radio" >选项二</label>
+    <label><input type="checkbox" name="radio" checked="checked">选项三</label>
+</form>
+<button>于静</button>
+</center>        
+</body>
+</html>
